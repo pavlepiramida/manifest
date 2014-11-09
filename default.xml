@@ -335,6 +335,7 @@
   <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" revision="cm-11.0" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
@@ -474,7 +475,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="kitkat" >
+  <project path="vendor/pa" name="darknightmare/android_vendor_pa" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />
     <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
   </project>
