@@ -22,6 +22,10 @@
            fetch="git://github.com"
            review="review.cyanogenmod.org" />
 
+  <remote  name="omni"
+           fetch="git://github.com"
+           review="gerrit.omnirom.org" />
+
   <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
            sync-c="true"
@@ -39,7 +43,7 @@
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-11.0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="omni" revision="android-4.4" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" remote="cm" revision="cm-11.0" />
   <project path="developers/build" name="platform/developers/build" />
